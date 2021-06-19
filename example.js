@@ -93,7 +93,7 @@ async function fetchAccountData() {
 
   // MetaMask does not give you all accounts, only the selected account
   console.log("Got accounts", accounts);
-  selectedAccount = accounts[1];
+  selectedAccount = accounts[2];
 
   document.querySelector("#selected-account").textContent = selectedAccount;
 
